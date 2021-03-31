@@ -184,6 +184,7 @@ function clicou(e) {
 	});
 }
 
+// testes
 // document.querySelector('body').onmouseover = () => {
 //   document.querySelector('body').style.opacity = 1;
 // }
