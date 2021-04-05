@@ -4,8 +4,8 @@ Project made to customize the web version of WhatsApp.
 
 TODO
 - fixed bugs on todo list;
-- blur images;
-- screen dimmer;
+- ~~blur images;
+- ~~screen dimmer;
 - create a crontab to monitorate and trigger notifications equals bot reminMe of Twitter;
 - add a button to transform audio in text using that(https://speech-to-text-demo.ng.bluemix.net/);
 - if the user is recording an audio longer than a minute, change the text to "is recording a podcast"
