@@ -2,6 +2,15 @@
 
 Project made to customize the web version of WhatsApp.
 
+COLOR PALETTE  
+black: ![#161925](https://via.placeholder.com/15/161925/000000?text=+) `#161925`,  
+blue: ![#07e6ea](https://via.placeholder.com/15/07e6ea/000000?text=+) `#07e6ea`,  
+lilac: ![#ac51ea](https://via.placeholder.com/15/ac51ea/000000?text=+) `#ac51ea`,  
+rose: ![#ff3cad](https://via.placeholder.com/15/ff3cad/000000?text=+) `#ff3cad`,  
+orange: ![#ff8e5f](https://via.placeholder.com/15/ff8e5f/000000?text=+) `#ff8e5f`,  
+yellow: ![#fffb02](https://via.placeholder.com/15/fffb02/000000?text=+) `#fffb02`,  
+purple: ![#9c27b0](https://via.placeholder.com/15/9c27b0/000000?text=+) `#9c27b0`  
+
 TODO
 - fixed bugs on todo list;
 - ~~blur images~~;
