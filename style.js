@@ -117,6 +117,28 @@ if (caixa.innerHTML.indexOf('- [ ]') >= 0 || caixa.innerHTML.indexOf('- [x]') >=
 //   }
 // }
 
+	document.querySelector('#main')
+	.querySelectorAll('img').forEach((img) => {
+	  
+	  if (img.style.webkitFilter.indexOf('20') < 0) {
+		  // img.onmouseover = () => {
+		  //   img.style.webkitFilter = "blur(0px)";
+		  // }
+		
+		  // img.onmouseleave = () => {
+		  //   img.style.webkitFilter = "blur(20px)";
+		  // }
+		  img.style.webkitFilter = "blur(20px)";
+	  }
+	});
+	
+	document.querySelector('body').onmouseover = () => {
+	  document.querySelector('body').style.opacity = 1;
+	}
+	
+	document.querySelector('body').onmouseleave = () => {
+	  document.querySelector('body').style.opacity = 0.08;
+	}
 
 },1);
 
@@ -183,15 +205,6 @@ function clicou(e) {
 		}
 	});
 }
-
-// testes
-// document.querySelector('body').onmouseover = () => {
-//   document.querySelector('body').style.opacity = 1;
-// }
-
-// document.querySelector('body').onmouseleave = () => {
-//   document.querySelector('body').style.opacity = 0.08;
-// }
 
 // document.querySelector('#main') 
 // .querySelectorAll('img').forEach((img) => {
