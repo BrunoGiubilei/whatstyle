@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Whatstyle",
+  "description": "Project made to customize the web version of WhatsApp",
+  "author": "Bruno Giubilei",
+  "browser_action": {
+    "default_title": "Whatsyle",
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
